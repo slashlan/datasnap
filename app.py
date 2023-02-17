@@ -18,7 +18,7 @@ from streamlit_pandas_profiling import st_profile_report
 tab1, tab2, tab3 = st.tabs(["Home", "🤖 Conversational Dataset", "📊 Data Profiler"])
 
 with tab1:
-    image_title = Image.open('C:/Users/marco/PycharmProjects/datasnap/DataSnap_logo_small.png')
+    image_title = Image.open('/app/datasnap/DataSnap_logo_small.png')
     st.image(image_title, width=600)
     # st.title('')
 
