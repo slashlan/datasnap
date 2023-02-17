@@ -59,7 +59,7 @@ with tab1:
     else:
         st.markdown(
             "**N.B. Sample data is loaded automatically. You can play with it or load your dataset here above.**")
-        df = pd.read_csv('C:/Users/marco/PycharmProjects/datasnap/Mountains.csv')
+        df = pd.read_csv('/app/datasnap/Mountains.csv')
         st.session_state.sample_data = True
         st.success('Sample data loaded. Go to 🤖 Conversational Dataset or to \n📊 Data Profiler to test the app.', icon="✅")
 
